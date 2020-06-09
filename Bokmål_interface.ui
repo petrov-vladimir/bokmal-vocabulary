@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>659</width>
-    <height>403</height>
+    <width>644</width>
+    <height>443</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
-      <width>661</width>
-      <height>401</height>
+      <y>10</y>
+      <width>921</width>
+      <height>541</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -33,10 +33,10 @@
      <widget class="QPushButton" name="CheckButton">
       <property name="geometry">
        <rect>
-        <x>360</x>
-        <y>176</y>
-        <width>91</width>
-        <height>41</height>
+        <x>460</x>
+        <y>180</y>
+        <width>171</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -53,9 +53,9 @@
       <property name="geometry">
        <rect>
         <x>21</x>
-        <y>190</y>
-        <width>256</width>
-        <height>41</height>
+        <y>210</y>
+        <width>401</width>
+        <height>33</height>
        </rect>
       </property>
       <property name="font">
@@ -64,14 +64,17 @@
         <pointsize>12</pointsize>
        </font>
       </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
      </widget>
      <widget class="QLabel" name="tasklabel">
       <property name="geometry">
        <rect>
         <x>21</x>
-        <y>161</y>
-        <width>251</width>
-        <height>16</height>
+        <y>181</y>
+        <width>401</width>
+        <height>22</height>
        </rect>
       </property>
       <property name="font">
@@ -84,251 +87,13 @@
        <string>TextLabel</string>
       </property>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>10</y>
-        <width>591</width>
-        <height>134</height>
-       </rect>
-      </property>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
-        <widget class="QGroupBox" name="groupBox">
-         <property name="font">
-          <font>
-           <family>Open Sans</family>
-           <pointsize>12</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="title">
-          <string>Ordforråd</string>
-         </property>
-         <widget class="QRadioButton" name="NounRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>33</y>
-            <width>119</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <family>Open Sans</family>
-            <pointsize>12</pointsize>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Substantiver</string>
-          </property>
-         </widget>
-         <widget class="QRadioButton" name="VerbRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>66</y>
-            <width>75</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <family>Open Sans</family>
-            <pointsize>12</pointsize>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Verber</string>
-          </property>
-         </widget>
-         <widget class="QRadioButton" name="AdjectiveRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>99</y>
-            <width>98</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <family>Open Sans</family>
-            <pointsize>12</pointsize>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Adjektiver</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item>
-        <widget class="QGroupBox" name="groupBox_2">
-         <property name="font">
-          <font>
-           <family>Open Sans</family>
-           <pointsize>12</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="title">
-          <string>Source</string>
-         </property>
-         <widget class="QRadioButton" name="L15SourceRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>96</y>
-            <width>123</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Leksjoner 1-5</string>
-          </property>
-         </widget>
-         <widget class="QRadioButton" name="DuolingoSourceRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>64</y>
-            <width>92</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Duolingo</string>
-          </property>
-         </widget>
-         <widget class="QRadioButton" name="AllSourceRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>32</y>
-            <width>50</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Alle</string>
-          </property>
-         </widget>
-         <widget class="QRadioButton" name="L510SourceRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>139</x>
-            <y>32</y>
-            <width>132</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Leksjoner 5-10</string>
-          </property>
-         </widget>
-         <widget class="QRadioButton" name="L1015SourceRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>139</x>
-            <y>64</y>
-            <width>141</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Leksjoner 10-15</string>
-          </property>
-         </widget>
-         <widget class="QRadioButton" name="L15120SourceRadioButton">
-          <property name="geometry">
-           <rect>
-            <x>139</x>
-            <y>96</y>
-            <width>141</width>
-            <height>26</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <weight>50</weight>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>Leksjoner 15-20</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QPushButton" name="NextButton">
-      <property name="geometry">
-       <rect>
-        <x>360</x>
-        <y>230</y>
-        <width>91</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Open Sans</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Next</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>250</y>
-        <width>251</width>
-        <height>108</height>
+        <y>260</y>
+        <width>401</width>
+        <height>213</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -384,6 +149,272 @@
          </property>
         </widget>
        </item>
+       <item>
+        <widget class="QLabel" name="solutionlabel_5">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="solutionlabel_6">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="solutionlabel_7">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="NextButton">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>260</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>21</x>
+        <y>11</y>
+        <width>611</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="title">
+          <string>Ordforråd</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QRadioButton" name="NounRadioButton">
+            <property name="font">
+             <font>
+              <family>Open Sans</family>
+              <pointsize>12</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Substantiver</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="VerbRadioButton">
+            <property name="font">
+             <font>
+              <family>Open Sans</family>
+              <pointsize>12</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Verber</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="AdjectiveRadioButton">
+            <property name="font">
+             <font>
+              <family>Open Sans</family>
+              <pointsize>12</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Adjektiver</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="font">
+          <font>
+           <family>Open Sans</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="title">
+          <string>Source</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QRadioButton" name="AllSourceRadioButton">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Alle ord</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="A1SourceRadioButton">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>A1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QRadioButton" name="A21920SourceRadioButton_3">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Leksjoner 19-20 (A2)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QRadioButton" name="A21618SourceRadioButton">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Leksjoner 16-18 (A2)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QRadioButton" name="A21215ourceRadioButton_2">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Leksjoner 12-15 (A2)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QRadioButton" name="LA1911SourceRadioButton">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Leksjoner 9-11 (A1)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QRadioButton" name="LA158SourceRadioButton">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Leksjoner 5-8 (A1)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QRadioButton" name="LA115SourceRadioButton">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Leksjoner 1-5 (A1)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="A2SourceRadioButton">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>A2</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
       </layout>
      </widget>
     </widget>
@@ -396,6 +427,16 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>UsersAnswerTextEdit</tabstop>
+  <tabstop>CheckButton</tabstop>
+  <tabstop>NounRadioButton</tabstop>
+  <tabstop>VerbRadioButton</tabstop>
+  <tabstop>AdjectiveRadioButton</tabstop>
+  <tabstop>AllSourceRadioButton</tabstop>
+  <tabstop>A1SourceRadioButton</tabstop>
+  <tabstop>tabWidget</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
